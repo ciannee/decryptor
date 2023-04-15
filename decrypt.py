@@ -84,6 +84,20 @@ while decryption_str != "no":
     decryption_str = input("Do you want to try again? (YES or NO): ")
     if decryption_str == "YES" :
         print("BEGIN AGAIN.")
+
+        import time
+        print("\n⋘  Processing.......... ⋙")
+        time.sleep (3)
+        print("\n██ 20% *___*")
+        time.sleep(1)
+        print("\n███ 40% *___*")
+        time.sleep(1)
+        print("\n████ 60% *___*")
+        time.sleep(1)
+        print("\n█████ 80% *___*")
+        time.sleep(1)
+        print("\n██████ 100% *___*")
+        time.sleep(3)
     
     elif decryption_str == "NO" :
         print("\nSTOP.")
