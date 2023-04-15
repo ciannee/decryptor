@@ -54,6 +54,11 @@ while decryption_str != "no":
     print("\n██████ 100% *___*")
     time.sleep(3)
 
+    print("\nYour encrypted text will be:", output_str)
+
+    import time
+    time.sleep (3)
+
     # decryption
 
     # print output
