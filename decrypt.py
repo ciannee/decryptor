@@ -7,6 +7,18 @@ decryption_str = ""
 while decryption_str != "no":
   
 # ask for user's input
+    import pyfiglet
+    name = input("\n\033[91m ♡˗ˏ✎*ೃ˚: Hi! Please enter your nickname:  ")
+    hello = "Hello"
+
+    import time
+    time.sleep(3)
+    name_art = pyfiglet.figlet_format(hello + name,font='graffiti')
+    print(name_art)
+
+    input_str = input("\n\033[95mPlease enter a string: ")
+    output_str = ""
+
     # check each character
 
     #   if a, change to *
