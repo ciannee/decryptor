@@ -3,7 +3,9 @@
 # Assignment 3: Redo Problem 2 with multiple github commits (Decryption)
 
 # looping
-   
+decryption_str = ""
+while decryption_str != "no":
+  
 # ask for user's input
     # check each character
 
