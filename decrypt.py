@@ -61,6 +61,22 @@ while decryption_str != "no":
 
     # decryption
 
+    print("\nDecrypting your string..........")
+
+    import time
+    print("\n⋘  Processing.......... ⋙")
+    time.sleep (3)
+    print("\n██ 20% *___*")
+    time.sleep(1)
+    print("\n███ 40% *___*")
+    time.sleep(1)
+    print("\n████ 60% *___*")
+    time.sleep(1)
+    print("\n█████ 80% *___*")
+    time.sleep(1)
+    print("\n██████ 100% *___*")
+    time.sleep(3)
+
     # print output
 
     # import pyfiglet module
