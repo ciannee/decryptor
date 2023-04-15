@@ -84,3 +84,16 @@ while decryption_str != "no":
     decryption_str = input("Do you want to try again? (YES or NO): ")
     if decryption_str == "YES" :
         print("BEGIN AGAIN.")
+    
+    elif decryption_str == "NO" :
+        print("\nSTOP.")
+        import pyfiglet
+        outro = "Thank you!"
+        outro_art = pyfiglet.figlet_format(outro, font = "bulbhead" )
+        import time
+        time.sleep(3)
+        print(outro_art)
+        break
+
+    else: 
+        print("Invalid.")
