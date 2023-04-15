@@ -78,7 +78,8 @@ while decryption_str != "no":
     time.sleep(3)
 
     # print output
-
+    print("\nYour decrypted string will be: \n", input_str, "\n")
+    
     # import pyfiglet module
    
     # looping
