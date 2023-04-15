@@ -79,7 +79,8 @@ while decryption_str != "no":
 
     # print output
     print("\nYour decrypted string will be: \n", input_str, "\n")
-    
-    # import pyfiglet module
    
     # looping
+    decryption_str = input("Do you want to try again? (YES or NO): ")
+    if decryption_str == "YES" :
+        print("BEGIN AGAIN.")
