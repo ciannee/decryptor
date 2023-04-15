@@ -25,7 +25,8 @@ while decryption_str != "no":
         if input_str[i] == "a":
             output_str += "*"
     #   if e, change to &
-       
+        elif input_str[i] == "e":
+            output_str += "&"
     #   if i, change to #
         
     #   if o, change to +
